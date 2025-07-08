@@ -3,9 +3,13 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "./node_modules/.bin/vite build",
     "preview": "vite preview"
   },
   "dependencies": {
