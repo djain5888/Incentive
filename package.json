@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite",
     "build": "./node_modules/.bin/vite build",
+    "build:render": "./build.sh",
     "preview": "vite preview"
   },
   "dependencies": {
